@@ -7,8 +7,13 @@
   --hero-footer-background: #2F303A; 
   --footer-phone-mail: rgba(255, 255, 255, 0.6);
   --color-studio: #0000;
-
-      }      
+      }    
+ .html {
+      box-sizing: border-box;
+ }
+ *,*::before,*::after{
+      box-sizing: inherit;
+ }
  *{
       box-sizing: border-box;
       margin: 0;
@@ -25,11 +30,7 @@
        /* свойства для все ссылок */
  .link{
       color:inherit;
-      text-decoration: none;
-      font-style: normal;          
-      }
-      /* свойства ссылок sait-nav */
- .sait-nav .link{
+      text-decoration: none;            
       font-family: Roboto;
       font-style: normal;
       font-weight: 500;
@@ -45,6 +46,7 @@
       font-size: 14px;
       line-height: 1.143;
       letter-spacing: 0.02em;
+      color: var(--main-text-color);
  }
  .sait-contacts .phone{
       font-family: Roboto;
@@ -53,8 +55,9 @@
       font-size: 14px;
       line-height: 1.143;
       letter-spacing: 0.02em;
+      color: var(--main-text-color);
  }
- .sait-nav .active {
+  .active {
       color: var(--color-button-logo);
  }      
  .link:hover, 
