@@ -7,7 +7,8 @@
   --hero-footer-background: #2F303A; 
   --footer-phone-mail: rgba(255, 255, 255, 0.6);
   --color-studio: #0000;
-      }    
+      }       
+  
  .html {
       box-sizing: border-box;
  }
@@ -15,13 +16,20 @@
       box-sizing: inherit;
  }
  *{
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
       list-style: none;
  }
+ .conteiner{      
+      width: 1170px;
+      margin: 0 auto;
+      padding: 0 15px;
+      outline: 2px solid tomato ;
+ }
+   
   /* свойства body */
- body {
+ body { 
+      width: 1600px;
       font-family: Roboto;
       font-style: normal;
       background-color: var(--white-color);
@@ -38,6 +46,27 @@
       line-height: 1.143;
       letter-spacing: 0.02em;
       color: var(--main-color-headers);
+ }
+ 
+ 
+ .sait-nav{
+      display: flex;
+      align-items: center; 
+      justify-content: space-between;
+ }
+  .sait-link{
+      display: flex;
+      justify-content: space-between;
+      width: 294px;
+      
+ }
+ .sait-contacts{
+      display: flex; 
+      justify-content: space-between;
+      width: 307px;
+      margin-left: 331px;
+
+ 
  }
  .sait-contacts .mail{
       font-family: Roboto;
