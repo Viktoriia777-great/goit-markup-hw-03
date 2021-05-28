@@ -58,6 +58,8 @@
       display: flex;
       justify-content: space-between;
       width: 294px;
+      padding-top: 32px;
+      padding-bottom: 32px;
       
  }
  .sait-contacts{
@@ -65,6 +67,8 @@
       justify-content: space-between;
       width: 307px;
       margin-left: 331px;
+      padding-top: 32px;
+      padding-bottom: 32px;
 
  
  }
@@ -76,6 +80,8 @@
       line-height: 1.143;
       letter-spacing: 0.02em;
       color: var(--main-text-color);
+      
+
  }
  .sait-contacts .phone{
       font-family: Roboto;
@@ -85,6 +91,7 @@
       line-height: 1.143;
       letter-spacing: 0.02em;
       color: var(--main-text-color);
+      
  }
   .active {
       color: var(--color-button-logo);
@@ -102,6 +109,8 @@
       color: var(--main-color-headers);
       text-decoration: none;
       color: var(color-studio);
+      padding-top: 24px;
+      padding-bottom: 25px;
       }
  .logo-web{
       color: var(--color-button-logo);
@@ -109,6 +118,8 @@
       /* Hero */
  .hero{
       background-color: var(--hero-footer-background);
+      display: flex;
+
       }
  .hero .title{  
       font-weight: 900;
@@ -118,9 +129,12 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
       color: var(--white-color);
-      }
+      margin-bottom: 40px;                  
+ }
       /* кнопка Заказать услугу */
  .button{
+      font-family: Roboto;
+      font-style: normal;
       font-weight: bold;
       font-size: 16px;
       line-height: 1.875;
@@ -128,19 +142,28 @@
       margin: auto; 
       background: var(--color-button-logo);
       color: var(--white-color);
-      display: flex;    
-      width: 200px;
+      display: flex; 
+      align-items: center;
+      text-align: center; 
+      width: 136px;
+      height: 30px;
+      left: 732px;
+      top: 440px;
       height: 50px;
       left: 700px;
       top: 430px;  
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;     
-      border: none; 
+      border: none;       
       }
  .button:hover,
  .button:focus{
       color: var(--white-color);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       }
+ .hero .conteiner{
+      padding-bottom: 200px;
+      padding-top: 200px;
+ }
       /* Особенности*/ 
  .feature-title{
       font-weight: bold;
