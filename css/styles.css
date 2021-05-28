@@ -25,7 +25,7 @@
       width: 1170px;
       margin: 0 auto;
       padding: 0 15px;
-      outline: 2px solid tomato ;
+      /* outline: 2px solid tomato ; */
  }
    
   /* свойства body */
@@ -54,7 +54,10 @@
       display: flex;
       align-items: center; 
       justify-content: space-between;
+      border: 1px solid #ECECEC;
+      
  }
+  
   .sait-link{
       display: flex;
       justify-content: space-between;
@@ -299,10 +302,27 @@
       text-align: center;
       letter-spacing: 0.03em;
       background: var(--team-filter-btn-bg);
-      color: var(--main-color-headers);
-      cursor: pointer;     
+      color: var(--main-color-headers); 
+      padding: 6px 22px;
+      cursor: pointer;  
+      margin-right: 8px;  
+      margin-bottom: 50px; 
   }
   /* Проекты */ 
+  .portfolio .conteiner{
+       
+       padding-top: 94px;
+  }
+  .portfolio .filter {
+       display: flex;
+       justify-content: center;                       
+  }
+  .project {
+      display: inline-flex;
+      flex-wrap: wrap;
+     justify-content: space-between;     
+ }  
+  
  .portfolio-item{
       font-weight: bold;
       font-size: 18px;
