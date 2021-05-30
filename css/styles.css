@@ -145,30 +145,6 @@
  }
       /* кнопка Заказать услугу */
  .button{
-      /* font-family: Roboto;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 1.875;
-      padding: 10px 32px;      	      
-      background: var(--color-button-logo); 
-      color: var(--white-color);
-       display: flex;  
-      align-items: center; 
-      text-align: center; 
-      position: absolute; 
-      width: 200px;
-      height: 30px;
-      left: 732px;
-       top: 440px; 
-      border-radius: 4px;     
-      border: none;
- /* }
- .button:hover,
- .button:focus{ */
-      /* color: var(--white-color);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      } */ 
        position: absolute; 
       width: 200px;
       height: 50px;
@@ -192,13 +168,8 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
       border: none;
-     }
-     
-
- 
-            
- 
- .feature{
+     }               
+  .feature{
       padding-top: 94px;
  }
  .feature .content{
@@ -260,6 +231,13 @@
  .team{
       background: var(--team-filter-btn-bg);
  }
+ .team .scorecard{
+     background: #FFFFFF;
+        
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 0px 0px 4px 4px;
+
+ }
  .team-member{
       font-weight: 500;
       font-size: 16px;
@@ -276,8 +254,7 @@
       letter-spacing: 0.03em;
       text-align: center;
       padding-bottom: 30px;
-      margin-top: 10px;
-      
+      margin-top: 10px;    
  }
       /* Контакты */
        
@@ -290,9 +267,7 @@
       padding-top: 60px;
       padding-bottom: 20px;
       color: var(--white-color);
-  }
-  
-    
+  }      
  .footer .mail{
       display: inline-block;
       padding-top: 9px;
@@ -361,7 +336,6 @@
       flex-wrap: wrap;
      justify-content: space-between;     
  }  
-  
  .portfolio-item{
       font-weight: bold;
       font-size: 18px;
@@ -376,11 +350,9 @@
       letter-spacing: 0.03em;
       color: var(--main-text-color);
  }
-  
  .choice{
      background: #FFFFFF;
      border: 1px solid #EEEEEE;
-     
  }
  .project li:not(:nth-last-child(-n + 3)) {  
      margin-bottom: 30px;
