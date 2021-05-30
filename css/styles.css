@@ -54,9 +54,10 @@
   .sait-nav .conteiner{
       display: flex;
       align-items: center; 
-      justify-content: space-between; 
-     
-      
+      justify-content: space-between;          
+ }
+ .sait-nav{
+     border-bottom: 1px solid #ECECEC;
  }
   
   .sait-link{
