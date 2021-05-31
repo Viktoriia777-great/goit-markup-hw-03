@@ -338,6 +338,7 @@
       cursor: pointer;  
       margin-right: 8px;  
       margin-bottom: 50px; 
+      border: none;
   }
   /* Проекты */ 
   .portfolio {
@@ -351,7 +352,8 @@
   .project {
       display: inline-flex;
       flex-wrap: wrap;
-     justify-content: space-between;     
+      flex-basis: auto; 
+         
  }  
  .portfolio-item{
       font-weight: bold;
@@ -366,11 +368,17 @@
       line-height: 1.875;      
       letter-spacing: 0.03em;
       color: var(--main-text-color);
+      margin-top: 4px;
+
  }
  .choice{
      background: #FFFFFF;
-     border: 1px solid #EEEEEE;
+     border: 1px solid #EEEEEE;        
  }
+ 
+ 
  .project li:not(:nth-last-child(-n + 3)) {  
      margin-bottom: 30px;
  }
+ 
+ 
