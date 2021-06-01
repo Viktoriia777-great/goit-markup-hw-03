@@ -28,7 +28,7 @@
       width: 1200px;
       margin: 0 auto;
       padding: 0 15px;
-      outline: 2px solid tomato ;  
+       /* outline: 2px solid tomato ;    */
  }
 
  /* свойства body */
@@ -52,6 +52,13 @@
       letter-spacing: 0.02em;
       color: var(--main-color-headers);
  }
+
+ /* свойства картинок */
+ img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+ }
  
  /* навигация */
    .sait-nav {  
@@ -60,7 +67,7 @@
       justify-content: space-between;          
  }
 
- .sait-nav{
+ header{
      border-bottom: 1px solid #ECECEC;
  }
   
@@ -360,20 +367,20 @@
       flex-wrap: wrap;
       margin-top: -30px;
       margin-left: -30px; 
-      outline: 1px solid rgb(71, 255, 117);          
+       /* outline: 1px solid rgb(71, 255, 117);  */
  } 
 
- .project > .projekt-choice{
-      flex-basis: calc(100%/3-30px);
+ /*.project */ .projekt-choice{
+       flex-basis: calc((100% - 90px) / 3);
       margin-left: 30px;
       margin-top: 30px;
-      outline: 1px solid blue;
+       /* outline: 1px solid blue;  */
  }
 
 .card-content{
       padding: 20px 24px;
       background-color: var(--white-color);
-      border: 1px solid var(--card-content-border); 
+     border: 1px solid var(--card-content-border);  
 }
 
  .portfolio-item{
@@ -393,20 +400,4 @@
       margin-top: 4px;
 
  }
- /* .choice{
-     background: #FFFFFF;
-     border: 1px solid #EEEEEE; 
-     width: 370px; 
-     card-content*/
-     
-     
-     
-         
- }
- 
- 
- /* .project li:not(:nth-last-child(-n + 3)) {  
-     margin-bottom: 30px;
- }
-  */
  
