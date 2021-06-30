@@ -747,12 +747,6 @@ img {
   height: 581px;
 }
 
-.modal__icon--close {
-  width: 15px;
-  height: 15px;
-  fill: currentColor;
-}
-
 .modal__tape {
   position: absolute;
   right: 8px;
@@ -767,9 +761,12 @@ img {
   cursor: pointer;
   background-color: #FFFFFF;
 }
-
-.modal__tape:hover,
-.modal__tape:focus {
+.modal__tape--close {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+.modal__tape:hover, .modal__tape:focus {
   border-color: #2196F3;
   color: #2196F3;
 }
