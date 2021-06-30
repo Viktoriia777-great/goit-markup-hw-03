@@ -241,12 +241,11 @@ img {
   margin-bottom: 30px;
 }
 
-.feature__columns li:not(:last-child) {
-  margin-right: 30px;
-}
-
 .feature__columns {
   display: flex;
+}
+.feature__columns li:not(:last-child) {
+  margin-right: 30px;
 }
 
 .feature__title {
