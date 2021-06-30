@@ -403,12 +403,6 @@ img {
   align-items: center;
 }
 
-.client-list__link:hover,
-.client-list__link:focus {
-  fill: #2196F3;
-  border: 1px solid #2196F3;
-}
-
 .client-list__link {
   display: flex;
   justify-content: center;
@@ -419,6 +413,10 @@ img {
   border: 1px solid #AFB1B8;
   outline: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client-list__link:hover, .client-list__link:focus {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
 }
 
 .client-list__company:not(:last-child) {
@@ -504,12 +502,6 @@ img {
   margin-bottom: 100px;
 }
 
-.socialy__svg:hover,
-.socialy__svg:focus {
-  fill: #FFFFFF;
-  background-color: #2196F3;
-}
-
 .socialy__list:not(:last-child) {
   margin-right: 10px;
 }
@@ -524,6 +516,10 @@ img {
   height: 44px;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socialy__svg:hover, .socialy__svg:focus {
+  fill: #FFFFFF;
+  background-color: #2196F3;
 }
 
 /* Подпишись на рассылку */
